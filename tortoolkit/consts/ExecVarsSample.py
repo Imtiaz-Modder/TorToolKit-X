@@ -12,17 +12,17 @@ except:
         MEGA_UNAME = os.environ.get("MEGA_UNAME")
         MEGA_PASS = os.environ.get("MEGA_PASS")
 
-        API_HASH = os.environ.get("API_HASH")
-        API_ID = int(os.environ.get("APP_ID", 12345))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-        BASE_URL_OF_BOT = os.environ.get("BASE_URL_OF_BOT", "")
+        API_HASH = os.environ.get("02b8371f37c3a82a8674e1ee84291bde")
+        API_ID = int(os.environ.get("APP_ID", 3314857))
+        BOT_TOKEN = os.environ.get("BOT_TOKEN", "5010984253:AAH7a3Kr9iIlEaUcE04E9YOxk5XLBfhOpLo")
+        BASE_URL_OF_BOT = os.environ.get("BASE_URL_OF_BOT", "https://tortoolkitopbot.herokuapp.com")
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "").split())
-        OWNER_ID = os.environ.get("OWNER_ID", "")
+        ALD_USR = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001733516219").split())
+        OWNER_ID = os.environ.get("OWNER_ID", "1527226871")
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = os.environ.get("GD_INDEX_URL", "False")
